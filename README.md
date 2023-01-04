@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Piano Sound Kit
+
+Practice playing the piano with your keyboard!
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

@@ -1,7 +1,7 @@
 import Keyboard from './components/Keyboard';
 import MusicTabs from './components/MusicTabs';
 import Header from './components/Header';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import HowToUse from './components/HowToUse';
 import { AnimatePresence } from 'framer-motion';
 

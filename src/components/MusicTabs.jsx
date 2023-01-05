@@ -5,7 +5,14 @@ import { motion } from 'framer-motion';
 
 const MusicTabs = () => {
   const allTunes = tunes.map((tune) => {
-    return <MusicTab key={nanoid()} title={tune.name} tabs={tune.tabs} />;
+    return (
+      <MusicTab
+        key={nanoid()}
+        title={tune.name}
+        tabs={tune.tabs}
+        level={tune.level}
+      />
+    );
   });
   return (
     <motion.div

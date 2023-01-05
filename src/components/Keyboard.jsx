@@ -59,7 +59,7 @@ const Keyboard = () => {
         className={`text-3xl md:text-4xl text-center font-playfair justify-center flex gap-4 py-4`}
       >
         <div>Key: </div>
-        <div className={` text-red-500 font-bold`}>{note}</div>
+        <div className={`text-red-500 font-bold`}>{note}</div>
       </h1>
       <div className={`flex flex-wrap justify-center`}>
         <PianoKeys

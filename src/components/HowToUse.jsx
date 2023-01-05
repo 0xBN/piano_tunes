@@ -17,18 +17,30 @@ const HowToUse = ({ setIsMenuOpen }) => {
       }}
     >
       <div
-        className={`absolute top-1/2 -translate-y-1/2 right-1/2 translate-x-1/2  bg-black z-30 p-8 w-full md:w-auto`}
+        className={`absolute top-1/2 right-1/2 z-30 w-full  -translate-y-1/2 translate-x-1/2 bg-black p-8 md:w-auto`}
       >
+        <h2 className={`text-center text-3xl`}>Levels</h2>
+        <ul className={`mx-auto w-1/2 p-3`}>
+          <li className={`rounded-md bg-green-900 text-center font-bold`}>
+            Easy
+          </li>
+          <li className={`rounded-md bg-yellow-600 text-center font-bold`}>
+            Medium
+          </li>
+          <li className={`rounded-md bg-red-900 text-center font-bold`}>
+            Hard
+          </li>
+        </ul>
         <h2 className={`text-center text-3xl`}>Tips</h2>
         <ul className={`p-3`}>
-          <li className={`mt-4`}>Works best on ⌨️ keyboard</li>
+          <li className={`mt-4`}>Use ⌨️ keyboard for best results</li>
           <li className={`mt-4`}>Press the corresponding letters</li>
           <li className={`mt-4`}>Capitalization matters</li>
           <li className={`mt-4`}>
             Notes are all there, but the rhythm is to be determined by the user
           </li>
         </ul>
-        <div className={`text-center p-8`}>
+        <div className={`p-8 text-center`}>
           created by{' '}
           <a className={`text-red-500`} href='https://0xbn.github.io/'>
             Brian
@@ -36,7 +48,7 @@ const HowToUse = ({ setIsMenuOpen }) => {
         </div>
       </div>
       <button
-        className={`absolute rounded-full right-0 m-5 p-1 bg-black `}
+        className={`absolute right-0 m-5 rounded-full bg-black p-1 `}
         onClick={() => setIsMenuOpen(false)}
       >
         ❌

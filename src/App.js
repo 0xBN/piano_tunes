@@ -11,8 +11,10 @@ function App() {
   return (
     <div className='bg-black text-white '>
       <Header isMenuOpen={isMenuOpen} setIsMenuOpen={setIsMenuOpen} />
+      
       <main className={`mt-[70px] md:mt-[80px] `}>
         <MusicTabs />
+        <hr />
         <Keyboard />
       </main>
       <AnimatePresence>

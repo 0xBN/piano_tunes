@@ -1,4 +1,4 @@
-# Piano Sound Kit
+# Piano Tunes
 Deployed: https://piano-tunes.onrender.com/
 
 ## Description

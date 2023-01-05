@@ -31,9 +31,11 @@ const HowToUse = ({ setIsMenuOpen }) => {
             Hard
           </li>
         </ul>
+        <hr className={`m-4 mx-auto`} />
         <h2 className={`text-center text-3xl`}>Tips</h2>
         <ul className={`p-3`}>
-          <li className={`mt-4`}>Use ⌨️ keyboard for best results</li>
+          <li className={`mt-4`}>⌨️ Use keyboard for best results</li>
+          <li className={`mt-4`}>🔊 Turn volume max for mobile devices </li>
           <li className={`mt-4`}>Press the corresponding letters</li>
           <li className={`mt-4`}>Capitalization matters</li>
           <li className={`mt-4`}>

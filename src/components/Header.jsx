@@ -8,7 +8,7 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
 
   return (
     <motion.header
-      className={`text-center py-4 fixed top-0 bg-red-800 w-full z-10`}
+      className={`fixed top-0 z-10 w-full bg-red-800 py-4 text-center`}
       initial={'hidden'}
       whileInView={'visible'}
       viewport={{ once: true, amount: 0.5 }}
@@ -18,12 +18,12 @@ const Header = ({ isMenuOpen, setIsMenuOpen }) => {
         visible: { opacity: 1, y: 0 },
       }}
     >
-      <h1 className={`text-3xl md:text-5xl font-cinzel font-medium`}>
+      <h1 className={`font-cinzel text-3xl font-medium md:text-5xl`}>
         Piano Tunes 🎹
       </h1>
       {!isMenuOpen && (
         <button
-          className={`absolute right-0 top-1/2 -translate-y-1/2 rounded-full mx-4 bg-black h-6 w-6 `}
+          className={`absolute right-0 top-1/2 mx-4 h-6 w-6 -translate-y-1/2 rounded-full bg-yellow-300 duration-500 hover:scale-125`}
           onClick={handleClick}
         >
           ❓

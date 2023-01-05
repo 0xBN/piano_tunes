@@ -40,6 +40,7 @@ const Keyboard = () => {
       noteAudio.pause();
       noteAudio.currentTime = 0;
     }
+    // noteAudio.volume = 1;
     noteAudio.play();
   };
 
@@ -56,10 +57,10 @@ const Keyboard = () => {
       }}
     >
       <h1
-        className={`text-3xl md:text-4xl text-center font-playfair justify-center flex gap-4 py-4`}
+        className={`flex justify-center gap-4 py-4 text-center font-playfair text-3xl md:text-4xl`}
       >
         <div>Key: </div>
-        <div className={`text-red-500 font-bold`}>{note}</div>
+        <div className={`font-bold text-red-500`}>{note}</div>
       </h1>
       <div className={`flex flex-wrap justify-center`}>
         <PianoKeys
